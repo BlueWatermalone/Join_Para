@@ -1,0 +1,105 @@
+<html>
+    <head>
+        <title>Join Website</title>
+    </head>
+    <body>
+        <center>
+        <h1>Joining Paragraphs</h1>
+            <div id="para_1_inputs" class="container">
+                <h3>Type your sentences here for Paragraph 1:</h3>
+                <input type="text" id="para1_1">
+                <br>
+                <br>
+                <input type="text" id="para1_2">
+                <br>
+                <br>
+                <input type="text" id="para1_3">
+                <br>
+                <br>
+                <input type="text" id="para1_4">
+                <br>
+                <br>
+                <input type="text" id="para1_5">
+                <br>
+                <br>
+                <button onclick="getPara1()">Get Paragraph 1</button>
+                <br>
+                <br>
+                <br>
+                <div id="showPara1"></div>
+            </div>
+            <div id="para_2_inputs" class="container">
+                <h3>Type your sentences here for Paragraph 2:</h3>
+                <input type="text" id="para2_1">
+                <br>
+                <br>
+                <input type="text" id="para2_2">
+                <br>
+                <br>
+                <input type="text" id="para2_3">
+                <br>
+                <br>
+                <input type="text" id="para2_4">
+                <br>
+                <br>
+                <input type="text" id="para2_5">
+                <br>
+                <br>
+                <button onclick="getPara2()">Get Paragraph 2</button>
+                <br>
+                <br>
+                <br>
+                <div id="showPara2"></div>
+            </div>
+            
+    </center>
+    </body>
+</html>
+
+<script src="main.js"></script>
+
+<style>
+
+h1 {
+    font-variant:small-caps;
+    font-size: 80px;
+}
+
+#para_1_inputs {
+    float: left;
+    margin-left: 400px;
+}
+
+#para_2_inputs {
+    float: right;
+    margin-right: 400px;
+}
+
+input {
+width: 400px;
+height: 50px;
+font-size: 25px;
+background-color: #ffc7f4;
+}
+
+button {
+    border-style: solid;
+    border-color: black;
+    border-radius: 7px;
+    border-width: 3px;
+    width: 200px;
+    height: 50px;
+    background-color: #e6a1ff;
+    font-weight: bold;
+}
+
+body {
+    background-color: #ff0080;
+}
+
+#showPara1, #showPara2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+</style>
